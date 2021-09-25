@@ -8,20 +8,59 @@
   --header-text-color: #ffffff;
 }
 
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
 body {
     font-family: "Open Sans", sans-serif;
     letter-spacing: 0.02em;
-    }
+}
+
+ul {
+    margin: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
 
 .link {
     text-decoration: none;
-    }
+}
 
 .list {
     list-style: none;
-    }
+    
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
 
 .btn {
+/* width: 160px; */
+/* height: 40px; */
+padding: 12px 20px;
+border: 1px solid var(--accent-color);
+border-radius: 25px;
+background-color: transparent;
+
     font-family:inherit
     font-weight: 600;
     font-size: 12px;
@@ -55,6 +94,42 @@ body {
 
 .header {
     background-color: grey;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-navigation {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    margin-right: 70px;
+
+}
+
+.header-list {
+    display: flex;
+    /* align-items: center; */
+}
+
+.header-item:not(:last-child) {
+    margin-right: 40px;
+}
+
+.header-contact {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.header-tel-link {
+    margin-right: 40px;
 }
 
 .header-link {
@@ -97,12 +172,27 @@ body {
 
 /* --------------HERO-------------- */
 
+.hero-container {
+    display: flex;
+    
+}
+
+.hero-list {
+    width: 98px;
+}
+
 .hero-right {
     background-color: rgb(54, 54, 54);
+    flex-grow: 1;
+    padding-top: 272px; 
+    padding-left: 91px;
+    padding-bottom: 206px;
+
 }
 
 .hero-pre-title {
     color: rgba(157, 164, 189, 0.6);
+    margin-bottom: 20px;
     }
 
 .hero-title {
@@ -112,13 +202,37 @@ body {
     line-height: 1.18;
     letter-spacing: 0.05em;
     color: var(--primary-title-color);
+    margin-bottom: 20px;
     }
 
 .hero-after-title {
+    max-width: 400px;
     color: var(--third-text-color);
     }
 
 /* --------------ABOUT-------------- */
+
+.about-container {
+    display: flex;
+    align-items: center;
+}
+
+.about-list {
+    display: flex;
+    align-items: center;
+}
+
+.about-right {
+    margin-left: 34px;
+    padding-left: 34px;
+    padding-right: 37px;
+    
+}
+
+.about-item {
+ margin-right: 30px;
+}
+
 .about-pre-title {
     color: var(--secondary-title-color);
 }

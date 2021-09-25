@@ -11,94 +11,109 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body>
     <header class="header">
-      <nav class="header-navigation">
-        <a class="header-logo" href=""
-          ><img src="./images/logo.svg" alt="Лого сайта"
-        /></a>
-        <ul class="header-list list">
-          <li class="header-item item">
-            <a class="header-link link" href="">О нас</a>
-          </li>
-          <li class="header-item item">
-            <a class="header-link link" href="">Услуги и цены</a>
-          </li>
-          <li class="header-item item">
-            <a class="header-link link" href="">Мастера</a>
-          </li>
-          <li class="header-item item">
-            <a class="header-link link" href="">Контакты</a>
-          </li>
-        </ul>
-      </nav>
-      <a class="header-tel-link link" href="tel:+380441111111"
-        >+38 044 111 11 11</a
-      >
-      <button class="header-btn btn" type="button">онлайн-запись</button>
+      <div class="container header-container">
+        <nav class="header-navigation">
+          <a class="header-logo" href=""
+            ><img src="./images/logo.svg" alt="Лого сайта"
+          /></a>
+          <ul class="header-list list">
+            <li class="header-item item">
+              <a class="header-link link" href="">О нас</a>
+            </li>
+            <li class="header-item item">
+              <a class="header-link link" href="">Услуги и цены</a>
+            </li>
+            <li class="header-item item">
+              <a class="header-link link" href="">Мастера</a>
+            </li>
+            <li class="header-item item">
+              <a class="header-link link" href="">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header-contact">
+          <a class="header-tel-link link" href="tel:+380441111111"
+            >+38 044 111 11 11</a
+          >
+          <button class="header-btn btn" type="button">онлайн-запись</button>
+        </div>
+      </div>
     </header>
     <main>
       <!-- Герой -->
       <section class="hero">
-        <ul class="hero-list list">
-          <li class="hero-item">
-            <a class="hero-link social-link link" href="">Instagram</a>
-          </li>
-          <li class="hero-item">
-            <a class="hero-link social-link link" href="">Youtube</a>
-          </li>
-        </ul>
-        <div class="hero-right">
-          <p class="pre-title hero-pre-title" lang="en">
-            A hair salon for men in Kyiv
-          </p>
-          <h1 class="hero-title" lang="en">BarberShop</h1>
-          <p class="after-title hero-after-title">
-            Мы эксперты в модных мужских стрижках. Работаем быстро, осторожно и
-            со вкусом.
-          </p>
+        <div class="container hero-container">
+          <ul class="hero-list list">
+            <li class="hero-item">
+              <a class="hero-link social-link link" href="">Instagram</a>
+            </li>
+            <li class="hero-item">
+              <a class="hero-link social-link link" href="">Youtube</a>
+            </li>
+          </ul>
+          <div class="hero-right">
+            <p class="pre-title hero-pre-title" lang="en">
+              A hair salon for men in Kyiv
+            </p>
+            <h1 class="hero-title" lang="en">BarberShop</h1>
+            <p class="after-title hero-after-title">
+              Мы эксперты в модных мужских стрижках. Работаем быстро, осторожно
+              и со вкусом.
+            </p>
+          </div>
         </div>
       </section>
       <!-- О нас -->
       <section class="about">
-        <ul class="about-list list">
-          <li class="about-item">
-            <img
-              src="./images/about-img-1.jpg"
-              alt="Барбер бреет шею"
-              width="270"
-              height="445"
-            />
-          </li>
-          <li class="about-item">
-            <img
-              src="./images/about-img-2.jpg"
-              alt="Барбер делает кантик"
-              width="270"
-              height="445"
-            />
-          </li>
-        </ul>
-        <div class="about-right">
-          <p class="pre-title about-pre-title">О нас</p>
-          <h2 class="about-title section-title">
-            Лучший Барбершоп твоего города
-          </h2>
-          <p class="after-title about-after-title">
-            Если ты хочешь добавить в свой образ больше уверенности – тебе точно
-            к нам.
-          </p>
-          <p class="about-text">
-            Мы команда, которая никогда не останавливается на достигнутом и
-            жаждет перемен. И когда ты попадешь в руки нашего мастера, то уже
-            никогда не сможешь быть прежним. Мы команда, которая всегда с
-            клиентами "на одной волне". Поэтому, мы всегда готовы
-            усовершенствовать каждого, кто к нам приходит!
-          </p>
-          <button class="about-btn btn" type="button">онлайн-запись</button>
+        <div class="container about-container">
+          <ul class="about-list list">
+            <li class="about-item">
+              <img
+                src="./images/about-img-1.jpg"
+                alt="Барбер бреет шею"
+                width="270"
+                height="445"
+              />
+            </li>
+            <li class="about-item">
+              <img
+                src="./images/about-img-2.jpg"
+                alt="Барбер делает кантик"
+                width="270"
+                height="445"
+              />
+            </li>
+          </ul>
+          <div class="about-right">
+            <p class="pre-title about-pre-title">О нас</p>
+            <h2 class="about-title section-title">
+              Лучший Барбершоп твоего города
+            </h2>
+            <p class="after-title about-after-title">
+              Если ты хочешь добавить в свой образ больше уверенности – тебе
+              точно к нам.
+            </p>
+            <p class="about-text">
+              Мы команда, которая никогда не останавливается на достигнутом и
+              жаждет перемен. И когда ты попадешь в руки нашего мастера, то уже
+              никогда не сможешь быть прежним. Мы команда, которая всегда с
+              клиентами "на одной волне". Поэтому, мы всегда готовы
+              усовершенствовать каждого, кто к нам приходит!
+            </p>
+            <button class="about-btn btn" type="button">онлайн-запись</button>
+          </div>
         </div>
       </section>
       <!-- Услуги и цены  -->
@@ -220,7 +235,7 @@
         <p class="gallery-pre-title pre-title">
           На латинском языке “барба” означает “борода”
         </p>
-        <h2 hidden>Галерея</h2>
+        <h2 class="visually-hidden">Галерея</h2>
         <ul class="gallery-list list">
           <li class="gallery-item">
             <img
