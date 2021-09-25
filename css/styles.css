@@ -208,13 +208,15 @@ background-color: transparent;
 .hero-after-title {
     max-width: 400px;
     color: var(--third-text-color);
-    }
+}
 
 /* --------------ABOUT-------------- */
 
 .about-container {
     display: flex;
     align-items: center;
+    padding-top: 139px;
+    padding-bottom: 121px;
 }
 
 .about-list {
@@ -226,7 +228,6 @@ background-color: transparent;
     margin-left: 34px;
     padding-left: 34px;
     padding-right: 37px;
-    
 }
 
 .about-item {
@@ -234,18 +235,22 @@ background-color: transparent;
 }
 
 .about-pre-title {
+    margin-bottom: 20px;
     color: var(--secondary-title-color);
 }
 
 .about-title {
+    margin-bottom: 20px;
     color: var(--secondary-title-color);
 }
 
 .about-after-title {
+     margin-bottom: 20px;
     color: var(--primary-text-color);
 }
 
 .about-text {
+     margin-bottom: 40px;
     font-size: 14px;
     line-height: 1.86;
     color: var(--primary-text-color);
