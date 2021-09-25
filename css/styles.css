@@ -54,12 +54,12 @@ img {
 }
 
 .btn {
-/* width: 160px; */
-/* height: 40px; */
-padding: 12px 20px;
-border: 1px solid var(--accent-color);
-border-radius: 25px;
-background-color: transparent;
+    /* width: 160px; */
+    /* height: 40px; */
+    padding: 12px 20px;
+    border: 1px solid var(--accent-color);
+    border-radius: 25px;
+    background-color: transparent;
 
     font-family:inherit
     font-weight: 600;
@@ -77,6 +77,21 @@ background-color: transparent;
     letter-spacing: 0.05em;
     }
 
+.pre-title {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    }
+
+.after-title {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.67;
+    }
+
+
 .social-link {
     font-weight: 600;
     font-size: 11px;
@@ -89,6 +104,8 @@ background-color: transparent;
 .social-link:focus {
     color: var(--accent-color);
 }
+
+
 
 /* --------------HEADER-------------- */
 
@@ -156,19 +173,6 @@ background-color: transparent;
     color: #ffffff;
 }
 
-.pre-title {
-    font-weight: 600;
-    font-size: 11px;
-    line-height: 1.36;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    }
-
-.after-title {
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 1.67;
-    }
 
 /* --------------HERO-------------- */
 
@@ -225,13 +229,13 @@ background-color: transparent;
 }
 
 .about-right {
-    margin-left: 34px;
-    padding-left: 34px;
+    padding-left: 64px;
     padding-right: 37px;
 }
 
-.about-item {
- margin-right: 30px;
+.about-item:not(:last-child) {
+    margin-right: 30px ;
+ 
 }
 
 .about-pre-title {
@@ -245,12 +249,12 @@ background-color: transparent;
 }
 
 .about-after-title {
-     margin-bottom: 20px;
+    margin-bottom: 20px;
     color: var(--primary-text-color);
 }
 
 .about-text {
-     margin-bottom: 40px;
+    margin-bottom: 40px;
     font-size: 14px;
     line-height: 1.86;
     color: var(--primary-text-color);
@@ -263,15 +267,48 @@ background-color: transparent;
 /* --------------PRICES-------------- */
 .prices {
     background-color: rgb(39, 38, 38);
+    text-align: center;
+}
+
+.prices-container {
+    padding-top: 130px;
+    padding-bottom: 130px;
 }
 
 .prices-pre-title {
-    color: var(--primary-text-color);
+     color: rgba(157, 164, 189, 0.6);
+    margin-bottom: 20px;
+    text-align: start;
 }
 
 .prices-title {
+     margin-bottom: 44px;
     color: var(--primary-title-color);
-    }
+
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.17;
+    letter-spacing: 0.05em;
+    text-align: start;
+}
+
+.prices-double-list {
+   display: flex;
+
+}
+
+.prices-list {
+    width: 585px;
+    padding: 30px 40px;
+}
+
+.prices-item {
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 20px;
+}
 
 .prices-type,
 .prices-count {
@@ -281,7 +318,9 @@ background-color: transparent;
     }
 
 .prices-btn {
-    color: ffffff;
+    color: #ffffff;
+    display:inline-block;
+    align-items: center;
 }
 
 /* --------------REASONS-------------- */
