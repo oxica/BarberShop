@@ -216,11 +216,15 @@ img {
 
 /* --------------ABOUT-------------- */
 
+.about {
+    padding-top: 139px;
+    padding-bottom: 121px;
+}
+
 .about-container {
     display: flex;
     align-items: center;
-    padding-top: 139px;
-    padding-bottom: 121px;
+  
 }
 
 .about-list {
@@ -229,8 +233,9 @@ img {
 }
 
 .about-right {
-    padding-left: 64px;
-    padding-right: 37px;
+    width: 480px;
+    margin-left: 64px;
+    /* padding-right: 37px; */
 }
 
 .about-item:not(:last-child) {
@@ -268,9 +273,6 @@ img {
 .prices {
     background-color: rgb(39, 38, 38);
     text-align: center;
-}
-
-.prices-container {
     padding-top: 130px;
     padding-bottom: 130px;
 }
@@ -324,6 +326,24 @@ img {
 }
 
 /* --------------REASONS-------------- */
+
+.reasons {
+    padding-top: 121px;
+    padding-bottom: 130px;
+}
+
+.reasons-container {
+    display: flex;
+    
+    align-items: center;
+    
+}
+
+.reasons-list {
+    display: flex;
+    margin-right: 130px;
+}
+
 .reasons-count {
     font-weight: 700;
     font-size: 42px;
@@ -343,10 +363,12 @@ img {
 
 .reasons-pre-title {
     columns: var(--secondary-text-color);
+    margin-bottom: 20px;
 }
 
 .reasons-title {
     color: var(--secondary-title-color);
+    margin-bottom: 20px;
 }
 
 .reasons-after-title {
@@ -354,12 +376,39 @@ img {
 }
 
 /* --------------MASTERS-------------- */
+
+.masters {
+    padding-top: 130px;
+    padding-bottom: 130px;
+    background-color: #F7F7F7;
+    
+}
+
 .masters-pre-title {
     color: var(--secondary-title-color);
+    margin-bottom: 20px;
 }
 
 .masters-title {
     color: var(--secondary-title-color);
+    margin-bottom: 44px;
+}
+
+.masters-list {
+display: flex;
+flex-wrap: wrap;
+margin-left: -30px;
+margin-top: -30px;
+}
+
+.masters-item {
+    flex-basis: calc(100% / 3 - 30px);
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.masters-item-bottom {
+    padding-top: 30px;
 }
 
 .masters-item-title {
@@ -367,6 +416,7 @@ img {
     line-height: 1.39;
     text-align: center;
     color: var(--secondary-title-color);
+    margin-bottom: 8px;
     }
 
 .master-item-text {
