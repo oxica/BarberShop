@@ -427,8 +427,26 @@ margin-top: -30px;
     }
 
 /* --------------GALLERY-------------- */
+.gallery {
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
 .gallery-pre-title {
     color: var(--secondary-text-color);
+    margin-bottom: 44px;
+}
+
+
+.gallery-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+}
+
+.gallery-item {
+    flex-basis: calc(100% / 4 - 30px);
+    margin-left: 30px;
 }
 
 /* --------------ONLINE-------------- */
