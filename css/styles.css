@@ -489,9 +489,25 @@ background-color: rgb(37, 33, 33);
 }
 
 /* --------------FOOTER-------------- */
+
+.footer-container {
+    display: flex;
+    align-items: center;
+}
+
 .footer-copy {
     font-weight: 600;
     font-size: 11px;
     line-height: 1.36;
     color: var(--third-text-color);
+}
+
+.footer-list {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+
+.footer-item:not(:first-child) {
+    margin-left: 40px;
 }
